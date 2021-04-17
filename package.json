@@ -13,6 +13,7 @@
   },
   "release": {
     "branches": [
+      "main",
       "master"
     ]
   }
