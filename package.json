@@ -1,7 +1,9 @@
 {
   "name": "semantic-release-mvp",
   "version": "0.0.0",
+  "private": true,
   "dependencies": {
+    "@semantic-release/git":  "^9.0.0",
     "semantic-release": "^17.4.2"
   },
   "release": {
