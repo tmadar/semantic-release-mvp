@@ -1,14 +1,7 @@
 {
   "name": "semantic-release-mvp",
   "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "cors": "^2.8.5",
-    "express": "~4.16.1",
     "semantic-release": "^17.4.2"
   },
   "release": {
