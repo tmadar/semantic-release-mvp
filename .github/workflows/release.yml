@@ -1,8 +1,13 @@
 name: Release
 on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
   push:
     branches:
-      - master
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   release:
     name: Release
